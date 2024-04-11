@@ -1,0 +1,149 @@
+/* Estilo para o corpo da página */
+
+body{
+    background-color: rgb(233, 231, 231);
+}
+
+/* Estilo da div onde está contida a foto do estúdio */
+.estudio{
+    width: 35%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    max-width: 350px;
+}
+
+/* Estilo da imagem estúdio */
+#estudio_content{
+    margin-top: 15px;
+    max-width: 95%;
+    border-radius: 25px;
+}
+
+/* Estilo do conteúdo da div da introdução */
+#introducao_content{
+    width: 60%;
+    float: right;
+    text-align: justify;
+}
+
+/* Estilo da div de conteúdo */
+.introducao{
+    margin-bottom: 25px;
+}
+
+/* Estilo de uma div específica para aumentar o espaço entre duas divs */
+.clear{
+    clear: both;
+}
+
+/* Estilo da div da barra de navegação */
+#nav{
+    margin: 13px;
+}
+
+/* Estilo para a navegação até os tipos de tatuagem */
+#tipos_nav{
+    margin: 5px;
+}
+
+/* Estilo para a navegação até os níveis de dor das tatuagens */
+#nivel_nav{
+    margin: 5px;
+}
+
+/* Estilo para a navegação até o pré procedimento da tatuagem */
+#pre_nav{
+    margin: 5px;
+}
+
+/* Estilo para a navegação até o pós procedimento da tatuagem */
+#pos_nav{
+    margin: 5px;
+}
+
+/* Estilo para a navegação até as bandeiras vermelhas de tatuagens */
+#redflag_nav{
+    margin: 5px;
+}
+
+/* Estilo dos títulos de nível 2 */
+
+h2{
+    color: rgb(84, 9, 84);
+}
+
+/* Estilo dos títulos de nível 3*/
+h3{
+    color: rgb(52, 4, 54)
+}
+
+/* Estilo dos parágrafos */
+p{
+    text-align: justify;
+}
+
+/* Estilo para a div de nível fácil das tatuagens*/
+.easy{
+    border: 15px;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 15px;
+}
+
+#easy_content{
+    padding: 25px;
+}
+
+#easy_title{
+    color: turquoise;
+}
+
+/* Estilo para a div de nível normal das tatuagens*/
+.okay{
+    border: 15px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+}
+
+#okay_content{
+    padding: 25px;
+}
+
+#okay_title{
+    color: green;
+}
+
+/* Estilo para as divs de nível mais dolorido das tatuagens*/
+.advanced{
+    border: 15px;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 15px;
+}
+
+#advanced_content{
+    padding: 25px;
+}
+
+#advanced_title{
+    color: yellow;
+}  
+
+/* Estilo para as divs de nível de alta dor das tatuagens*/
+
+.hard{
+    border: 15px;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 15px;
+}
+
+#hard_content{
+    padding: 25px;
+}
+
+#hard_title{
+    color: darkred;
+}
